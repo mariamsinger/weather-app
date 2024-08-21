@@ -8,8 +8,8 @@ const handleToggleChange = () => {
     isToggled.value = !isToggled.value;
 };
 
-const apiKey = process.env.OPEN_WEATHER_API_KEY;
-const googleApiKey = process.env.GOOGLE_API_KEY;
+const apiKey = import.meta.env.VITE_OPEN_WEATHER_API_KEY;
+const googleApiKey = import.meta.env.VITE_GOOGLE_API_KEY;
 const location = ref<string>();
 const weatherData = ref<WeatherData>();
 const listedWeatherData = computed<ListedWeatherData | undefined>(() => {
