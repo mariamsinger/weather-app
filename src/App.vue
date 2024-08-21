@@ -106,13 +106,6 @@ function callback(place: any) {
                 class="p-3 h-12 w-[50vw] rounded-lg"
             />
 
-            <button
-                v-on:click="callback"
-                class="btn p-3 h-12 rounded-lg bg-blue-500 items-center justify-center"
-                aria-label="Search"
-            >
-                <span class="material-symbols-outlined"> search </span>
-            </button>
         </div>
 
         <div
