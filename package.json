@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
     "oh-vue-icons": "^1.0.0-rc3",
     "vue": "^3.4.31",
     "vue3-google-address-autocomplete": "^1.1.3",
